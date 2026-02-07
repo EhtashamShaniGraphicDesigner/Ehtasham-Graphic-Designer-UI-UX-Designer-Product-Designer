@@ -4,56 +4,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ehtasham Shani | Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body data-scroll-container>
-
+<body>
     <div id="cursor"></div>
 
     <nav>
         <div class="logo">EHTASHAM SHANI</div>
         <div class="nav-links">
-            <a href="https://www.behance.net/shanikhan27" target="_blank">Portfolio</a>
-            <a href="mailto:ehtashammuneer1234@gmail.com">Contact</a>
+            <a href="#work">Work</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="nav-social">
+            <a href="https://www.behance.net/shanikhan27" target="_blank" rel="noreferrer">Behance</a>
+            <a href="https://www.linkedin.com/in/ehtasham-shani-4b0672190/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
     </nav>
 
-    <div class="wrapper" data-scroll-section>
+    <main>
         <header class="hero">
-            <h1 data-scroll data-scroll-speed="-2">Ehtasham Shani</h1>
-            <div class="role-container">
-                <span class="role">Graphic Designer</span>
-                <span class="role">UI/UX Designer</span>
-                <span class="role">Product Designer</span>
+            <div class="hero-text">
+                <p class="eyebrow">Graphic Designer • UI/UX Designer • Product Designer</p>
+                <h1>Ehtasham Shani</h1>
+                <p class="intro">
+                    I craft bold brand identities, clean digital products, and memorable marketing visuals.
+                    Based in Pakistan, collaborating globally with startups and growing brands.
+                </p>
+                <div class="cta-group">
+                    <a class="primary" href="mailto:ehtashammuneer1234@gmail.com">Let’s Collaborate</a>
+                    <a class="secondary" href="https://www.behance.net/shanikhan27" target="_blank" rel="noreferrer">View Behance</a>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="hero-image"></div>
+                <div class="hero-meta">
+                    <div>
+                        <h3>12+ Brands</h3>
+                        <p>Identity, packaging & marketing systems.</p>
+                    </div>
+                    <div>
+                        <h3>UI/UX Focus</h3>
+                        <p>App, web, and product design sprints.</p>
+                    </div>
+                </div>
             </div>
         </header>
 
-        <section class="about" data-scroll>
-            <p>Elevating brands through impactful visuals and user-centric design. [cite_start]Currently at Appsnation. [cite: 1, 10]</p>
-        </section>
-
-        <section class="work-section">
-            <div class="work-row" data-scroll data-scroll-speed="1">
-                <div class="work-item">
-                    <img src="https://via.placeholder.com/800x1000" alt="Work">
-                    <h3>Featured Projects</h3>
+        <section class="about" id="about">
+            <div class="section-title">
+                <h2>About</h2>
+                <p>Visual storytelling with strategy.</p>
+            </div>
+            <div class="about-content">
+                <p>
+                    I help teams translate ideas into high-impact visuals and intuitive digital experiences. My process blends
+                    research, layout discipline, and modern typography to deliver products that feel premium and human.
+                </p>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h4>Brand Identity</h4>
+                        <p>Logos, guidelines, packaging, and launch kits that scale across platforms.</p>
+                    </div>
+                    <div class="about-card">
+                        <h4>Product Design</h4>
+                        <p>UX audits, wireframes, interactive prototypes, and design systems.</p>
+                    </div>
+                    <div class="about-card">
+                        <h4>Marketing Design</h4>
+                        <p>Campaign visuals, social media kits, and motion-ready assets.</p>
+                    </div>
                 </div>
             </div>
         </section>
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+        <section class="work" id="work">
+            <div class="section-title">
+                <h2>Selected Work</h2>
+                <p>Inspired by the portfolio on Behance.</p>
+            </div>
+            <div class="work-grid">
+                <article class="work-card">
+                    <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=900&q=80" alt="Brand identity mockup" loading="lazy">
+                    <div class="work-info">
+                        <h3>Nova Luxe Branding</h3>
+                        <p>Luxury brand identity with premium packaging and visual guidelines.</p>
+                    </div>
+                </article>
+                <article class="work-card">
+                    <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=900&q=80" alt="UI dashboard design" loading="lazy">
+                    <div class="work-info">
+                        <h3>Fintech App UI</h3>
+                        <p>Dashboard, onboarding, and KPI views for a finance platform.</p>
+                    </div>
+                </article>
+                <article class="work-card">
+                    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Packaging and label design" loading="lazy">
+                    <div class="work-info">
+                        <h3>Organic Coffee Packaging</h3>
+                        <p>Eco-first packaging concepts for a specialty coffee brand.</p>
+                    </div>
+                </article>
+                <article class="work-card">
+                    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80" alt="Creative agency website" loading="lazy">
+                    <div class="work-info">
+                        <h3>Agency Website Redesign</h3>
+                        <p>Modern, high-conversion marketing website redesign.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="section-title">
+                <h2>Let’s Build Something</h2>
+                <p>Reach out for collaborations, freelance work, or product design support.</p>
+            </div>
+            <div class="contact-card">
+                <div>
+                    <h3>Start a project</h3>
+                    <p>Email me and I’ll reply within 24 hours with next steps.</p>
+                </div>
+                <a class="primary" href="mailto:ehtashammuneer1234@gmail.com">ehtashammuneer1234@gmail.com</a>
+                <div class="social-links">
+                    <a href="https://www.behance.net/shanikhan27" target="_blank" rel="noreferrer">Behance Portfolio</a>
+                    <a href="https://www.linkedin.com/in/ehtasham-shani-4b0672190/" target="_blank" rel="noreferrer">LinkedIn Profile</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Ehtasham Shani. Crafted for a bold digital presence.</p>
+    </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script>
-        const scroll = new LocomotiveScroll({
-            el: document.querySelector('[data-scroll-container]'),
-            smooth: true
-        });
-
-        // Custom Cursor Logic
         document.addEventListener("mousemove", (e) => {
-            gsap.to("#cursor", { x: e.clientX, y: e.clientY, duration: 0.5 });
+            gsap.to("#cursor", { x: e.clientX, y: e.clientY, duration: 0.4 });
         });
     </script>
 </body>
